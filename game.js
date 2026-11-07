@@ -11,7 +11,7 @@ const DIFFS = {
 // 点：ずれ（画面と同じ0.01秒刻み）で決める。±0.00 は「ジャスト」で別格、±0.01 から 0.01秒ごとに 0.65倍
 const PTS_JUST = 2000, PTS_TOP = 600, PTS_DECAY = 0.65;
 const COMBO_BONUS = 0.15; // それまでのピッタリの連続1回につき +15%（ピッタリのときだけ）
-const SHARE_URL = 'https://yabon3.github.io/hagashi-master/';
+const SHARE_URL = 'https://happycodeworks.github.io/hagashi-master/';
 const REGULAR = [1, 1, 2, 2, 3, 3, 4, 4, 5]; // 並びは毎回シャッフル。合計は固定（太客と合わせて10人）
 const BOSS = 10;                                             // 最後の1人（太客）
 const YEN_PER_TICKET = 1000;
